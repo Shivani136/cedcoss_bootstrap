@@ -1,0 +1,231 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Bootstrap Example</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <link rel="stylesheet" href="css/about.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> 
+        <script>
+            $(window).scroll(function(){
+                $('nav').toggleClass('scrolled',$(this).scrollTop()>50);
+            });
+            </script>
+    </head>
+    <body onload="myFunction()">
+        <header class="background-header ">
+            <nav class="navbar navbar-expand-sm navbar-light  bgcolor p-4">
+                
+                <div class="container">
+                <a class="navbar-brand text-white " href="index.html">HOST <span>CLOUD</span></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse text-white"  id="collapsibleNavbar">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item color">
+                            <a class="nav-link active  text-white " href="index.html" target="blank">Home</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link active text-white pr-2"  href="about.html">About us </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-white pr-3"  href="services.html">Our Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-white pr-3 ml-auto" href="contact.html">Contact Us</a>
+                        </li>
+                        <li >
+                            <a class="btn btn-light  btn-login  ml-5" href="#">Login</a>
+                        </li>
+                        <li >
+                            <a class=" btn btn-info btn-signup ml-3" href="#">Sign Up</a>
+                        </li>
+                    </ul>
+                    <!-- <hr> -->
+                </div>
+            </div>
+            </nav>
+        </header>
+        <div class="ced-section header-section  text-center  pb-5">
+            <div class="header-content text-center">
+                <h2 class="text-white pb-2">ABOUT US</h2>
+                <p class="text-white">
+                    <a href="index.html" target="blank">Home</a> 
+                    <span class="caption"> /  About Us</span></p>
+            </div>
+        </div>
+        <section class="image-section pt-5 pb-5">
+            <div class="container pt-5 pb-5">
+                <div class="row">
+                    <div class="col-md-6 img-left">
+                        <img src="img/our-team.jpg" alt="description" width="100%" height="auto">
+                    </div>
+                    <div class="col-md-6 pl-5">
+                        <p class="text-color  text-left"><b>Testimonials</b></p>
+                        <h3 class="font-weight-bold text-left  pt-1 pb-2">What They Say About US</h3>
+                        <p class="text pb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum consequat, dui pellentesque gravida convallis, ipsum orci ullamcorper justo, eu varius leo libero sit.</p>
+                        <hr >
+                        <div class="row pb-5">
+                            <div class="col-sm-4 ">
+                                <p class="text-color"><b>Our History</b></p>
+                            </div>
+                            <div class="col-sm-4">
+                                <p><b>Our Cloud</b></p>
+                            </div>
+                            <div class="col-sm-4">
+                                <p ><b>Our Network</b></p>
+                            </div>
+                        </div>
+                        <p class="text pt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rhoncus nisi vel magna hendrerit posuere. Donec faucibus ipsum at mattis malesuada. Sed erat justo, imperdiet vel turpis aliquet, interdum maximus nibh. Nam varius diam sodales, lacinia turpis et, tempus odio. Cras in turpis mi. Nam non convallis justo</p>
+                        <p class=" text pt-3 pb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rhoncus nisi vel magna.Quisque rhoncus nisi vel magna hendrerit posuere .</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="our-team pt-5 pb-5">
+            <div class="container">
+                <p class="text-color text-center "><b>Our History</b></p>
+                <h3 class="font-weight-bold text-center pb-3">Meet The Greatest People</h3>
+                <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rhoncus nisi vel magna hendrerit posuere. Donec faucibus ipsum at mattis malesuada. Sed erat justo, imperdiet vel turpis aliquet, interdum maximus nibh.</p>
+            </div>
+            <div class="row  card-images">
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="card">
+                        <img class="image" src="img/team-01.jpg" alt="Card image" >
+                        <div class="card-contain">
+                            <h6 class="pt-3"><b>Johnathan Smart</b></h6>
+                            <p class="text-color ">Co-Founder</p>
+                        </div>
+                     
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="card">
+                        <img class="image" src="img/team-02.jpg" alt="Card image" >
+                        <div class="card-contain">
+                            <h6 class="pt-3"><b>Johnathan Smart</b></h6>
+                            <p class="text-color ">Co-Founder</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="card">
+                        <img class="image" src="img/team-03.jpg" alt="Card image" >
+                        <div class="card-contain">
+                            <h6 class="pt-3"><b>Johnathan Smart</b></h6>
+                            <p class="text-color ">Co-Founder</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-testimonials pt-5">
+            <div class="container">
+            <p class="text-color text-center pt-5 "><b>Testimonials</b></p>
+            <h3 class="font-weight-bold text-center pb-5">What They Say About US</h3>
+            <div id="demo" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ul class="carousel-indicators">
+                    <li data-target="#demo" data-slide-to="0" class="active"></li>
+                    <li data-target="#demo" data-slide-to="1"></li>
+                    <li data-target="#demo" data-slide-to="2"></li>
+                </ul>
+                <!-- The slideshow -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="section-icon text-center">
+                            <i class="fa fa-quote-right"></i>
+                            <p class="pt-5 icon-caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rhoncus nisi vel magna hendrerit posuere. Donec faucibus ipsum at mattis malesuada. Sed erat justo, imperdiet vel turpis aliquet, interdum maximus nibh. Nam varius diam sodales, lacinia turpis et, tempus odio. Cras in turpis mi.</p>
+                            <h4 class="font-weight-bold text-center ">William Smith</h4>
+                            <p class="text-color text-center "><b>New Co-founder</b></p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="section-icon text-center">
+                            <i class="fa fa-quote-right"></i>
+                            <p class="pt-5 icon-caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rhoncus nisi vel magna hendrerit posuere. Donec faucibus ipsum at mattis malesuada. Sed erat justo, imperdiet vel turpis aliquet, interdum maximus nibh. Nam varius diam sodales, lacinia turpis et, tempus odio. Cras in turpis mi.</p>
+                            <h4 class="font-weight-bold text-center ">William Smith</h4>
+                            <p class="text-color text-center "><b>New Co-founder</b></p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="section-icon text-center">
+                            <i class="fa fa-quote-righsection-testimonialst"></i>
+                            <p class="pt-5 icon-caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rhoncus nisi vel magna hendrerit posuere. Donec faucibus ipsum at mattis malesuada. Sed erat justo, imperdiet vel turpis aliquet, interdum maximus nibh. Nam varius diam sodales, lacinia turpis et, tempus odio. Cras in turpis mi.</p>
+                            <h4 class="font-weight-bold text-center ">William Smith</h4>
+                            <p class="text-color text-center "><b>New Co-founder</b></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="owl-dots">
+                    <!-- Left and right controls -->
+                    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#demo" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                    </a>
+                </div>
+                <i class="fa fa-circle fa4 text-center" aria-hidden="true"></i>
+                <i class="fa fa-circle fa4 text-center" aria-hidden="true"></i>
+                <i class="fa fa-circle fa4 text-center" aria-hidden="true"></i>
+            </div>
+        </section>
+        <section class="section-footer">
+            <div class="container pb-5">
+                <div class="row pb-5">
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <p class="font-weight-bold text-left">About US</p>
+                        <p class="footer-contents">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum consequat, dui pellentesque gravida convallis, ipsum orci ullamcorper justo, eu varius leo libero sit.</p>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <p class="font-weight-bold text-left">Hosting Plans</p>
+                        <div class="footer-content">
+                            <p>Basic cloud 5x</p>
+                            <p>Basic cloud 5x</p>
+                            <p>Basic cloud 5x</p>
+                            <p>Basic cloud 5x</p>
+                            <p>Basic cloud 5x</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <p class="font-weight-bold text-left">Useful Links</p>
+                        <div class="footer-content">
+                            <p>Cloud Hosting Plateform</p>
+                            <p>Basic cloud 5x</p>
+                            <p>Basic cloud 5x</p>
+                            <p>Basic cloud 5x</p>
+                            <p>Basic cloud 5x</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <p class="font-weight-bold text-left">More Information</p>
+                        <div class="footer-content">
+                            <p><strong>Phone:</strong>010-020-05578</p>
+                            <p><strong>Email:</strong>mail@company.com</p>
+                            <p><strong>Support:</strong>mail@company.com</p>
+                            <p><strong>Website:</strong>www.company.com </p>
+                        </div>
+                    </div>
+                </div>
+                <hr class="border">
+                <p class="pt-5">Copyright@2020  Clod Hosted By Company Designed By Template</p>
+            </div>
+        </section>
+        <script>
+            var preloader = document.getElementById('loading');
+            function myFunction(){
+                preloader.style.display ='none';
+            }
+        </script>
+    </body>
+</html>
+
